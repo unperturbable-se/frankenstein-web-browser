@@ -1,0 +1,12 @@
+[package]
+name = "my-browser"
+version = "0.1.0"
+edition = "2026"
+
+[dependencies]
+servo = "0.8.0"  # Check crates.io for the latest version
+winit = "0.30"
+euclid = "0.22"
+url = "2"
+webrender_api = "0.65"
+rustls = "0.23"
